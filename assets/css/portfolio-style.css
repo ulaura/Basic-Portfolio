@@ -1,0 +1,49 @@
+/*	To format the div boxes on the
+	portfolio page */
+
+.image {
+	height: 20px;
+	width: 30px;
+	border: solid black 5px;
+}
+
+.cornbread {
+	position: relative;
+	float: left;
+}
+.carrot_cake {
+	position: relative;
+	float: left;
+}
+
+.kombucha {
+	clear: both; 
+	/*	To get rid of the formatting
+		from above */
+	position: relative;
+	float: left;
+}
+
+.tea {
+	position: relative;
+	float: left;
+}
+
+.chicken_korma {
+	clear: both;
+	position: relative;
+	float: left;
+}
+
+.corn_dogs {
+	position: relative;
+	float: left;
+}
+
+.peanut_butter_cups {
+	clear: both;
+	position: relative;
+	float: left;
+}
+
+
