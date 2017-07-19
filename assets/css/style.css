@@ -1,8 +1,51 @@
-/*	To format the div boxes on the
-	portfolio page */
+/*	General CSS stylsheet accross
+	all three pages. Things were getting
+	complicated, so I decided to make
+	separate CSS files to help myself
+	stay organized. 
 
-.image {
-	height: 200px;
-	width: 300px;
-	border: solid black 5px;
+*/
+
+
+.header {
+	position: static;
+	top: 0;
+	border: red solid 5px;
 }
+
+.content_area {
+	border: solid purple 5px;
+	margin-left: 10%;
+	margin-bottom: 40px;
+	height: 605px;
+	width: 960px;
+}
+
+.main_section {
+	border: solid orange 5px;
+	position: absolute;
+	float: left;
+	width: 650px;
+	height: 605px;
+}
+
+
+.connect_box {
+	clear: both;
+	position: relative;
+	float: right;
+	border: solid green 5px;
+	width: 270px;
+	height: 200px;
+}
+
+
+
+
+.footer {
+	clear: both;
+	position: static;
+	bottom: 0;
+	border: red solid 5px;
+}
+
