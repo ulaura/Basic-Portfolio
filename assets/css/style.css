@@ -1,0 +1,8 @@
+/*	To format the div boxes on the
+	portfolio page */
+
+.image {
+	height: 200px;
+	width: 300px;
+	border: solid black 5px;
+}
