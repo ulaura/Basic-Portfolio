@@ -2,8 +2,8 @@
 	portfolio page */
 
 .image {
-	height: 20px;
-	width: 30px;
+	height: 20%;
+	width: 42%;
 	border: solid black 5px;
 }
 
@@ -13,7 +13,7 @@
 }
 .carrot_cake {
 	position: relative;
-	float: left;
+	float: right;
 }
 
 .kombucha {
@@ -26,7 +26,7 @@
 
 .tea {
 	position: relative;
-	float: left;
+	float: right;
 }
 
 .chicken_korma {
@@ -37,7 +37,7 @@
 
 .corn_dogs {
 	position: relative;
-	float: left;
+	float: right;
 }
 
 .peanut_butter_cups {
