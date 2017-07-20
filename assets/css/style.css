@@ -17,6 +17,8 @@
 	top: 0;
 }
 
+/*effects the positioning that h1, p, and a
+tags within the header share*/
 .header_container {
 	position: absolute;
 	border: solid pink 5px;
