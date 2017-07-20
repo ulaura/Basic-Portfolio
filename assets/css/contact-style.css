@@ -1,0 +1,20 @@
+/*	stylesheet for specific elements on
+	contact.html
+*/
+
+
+/*effects the name input line and
+the email input line*/
+.input_line {
+	width: 100%;
+}
+
+/*effects the message box input line.*/
+.message_box {
+	width: 100%;
+}
+
+/*effects the submit button*/
+.submit_button {
+	/*left off here*/
+}

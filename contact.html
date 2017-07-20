@@ -12,6 +12,7 @@
 
 <body>
 	<div class="header">
+		<!-- Nested a separate container with absolute positioning within header div to handle the styling for the h1, p, and a tags more easily -->
 		<div class="header_container">
 			<h1>Laura Unaeze</h1>
 
@@ -32,22 +33,22 @@
 
 			<form>
 				Name:<br>
-				<input type="text" name="firstname" value="John Smith" size="50"> <!-- "size" determines the length of the text line by characters. -->
+				<input class="input_line" type="text" name="fullname" value="John Smith" size="50"> <!-- "size" determines the length of the text line by characters. -->
 
 				<br>
 
 				Email:<br>
-				<input type="text" name="email" value="email@example.com" size="50">
+				<input class="input_line" type="text" name="email" value="email@example.com" size="50">
 
 				<br>
 
 				Message:<br>
-				<textarea name="message" rows="20" cols="51"></textarea>
+				<textarea class="message_box" name="message" rows="20" cols="51"></textarea>
 				<!-- "rows" and "cols" determines the area of the text box. -->
 				
 				<br>
 
-				<input type="submit" value="Submit">
+				<input class="submit_button" type="submit" value="Submit">
 
 			</form>
 
