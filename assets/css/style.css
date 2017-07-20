@@ -92,6 +92,20 @@ tags within the header share*/
 	padding-bottom: 40px;
 }
 
+.connect_images {
+	border: solid 5px black;
+	height: 90px;
+}
+
+.connect_images img {
+	display: block;
+	float: left;
+	/*the images I have are square, so defining the height AND width ruins the image*/
+	height: 60%;
+	margin-right: 11px;
+}
+
+
 .connect_box h1 {
 	font-size: 20px;
 	font-family:'Georgia', Times, Times New Roman, serif;
@@ -110,4 +124,5 @@ tags within the header share*/
 	font-family:'Georgia', Times, Times New Roman, serif;
 
 }
+
 
